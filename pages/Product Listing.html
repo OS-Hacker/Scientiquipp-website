@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- hero-header section -->
+    <section class="hero-header">
+        <img src="../assets/images/hero-header-img.jpg" alt="Centrifuges" />
+
+        <div class="hero-content">
+            <div class="d-flex gap-2 flex-wrap">
+                <h2 class="title m-0">Centrifuges</h2>
+                <span class="subtitle-sub">Scientiquipp Lab Technology</span>
+            </div>
+
+            <p>
+                <span class="subtitle d-block mb-2">
+                    Here is an overview of our laboratory centrifuges.
+                </span>
+                Sigma centrifuges are high performance, reliable and safe. Whether you
+                are looking for a compact microlitre centrifuge, a high-performance
+                benchtop centrifuge or a large-capacity self-standing centrifuge –
+                refrigerated, unrefrigerated, heated, or especially quiet and energy
+                efficient – we have the right solution for every requirement.
+                <br /><br />
+                Product options such as IVD, inert gas port and water cooling are also
+                part of our portfolio.
+            </p>
+        </div>
+    </section>
+
+    <!-- products-listing section -->
+    <section class="">
+        <div class="d-lg-none p-2">
+        </div>
+        <div class="container-fluid">
+            <div class="d-lg-none p-2">
+                <button class="btn btn-dark w-100" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar">
+                    ☰ Filters
+                </button>
+            </div>
+
+            <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileSidebar"
+                aria-labelledby="mobileSidebarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mobileSidebarLabel">Filters</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="sidebar p-3">
+                        <h6 class="fw-bold">LABORATORY <br> EQUIPMENT</h6>
+                        <small class="text-muted">TECHNICAL CATALOG V4.2</small>
+                        <ul class="list-unstyled mt-2">
+                            <li class="active"><span>icon</span> Centrifuges</li>
+                            <li><span>icon</span> Incubators</li>
+                            <li><span>icon</span> Spectrometers</li>
+                            <li><span>icon</span> Freezers</li>
+                            <li><span>icon</span> Liquid Handling</li>
+                        </ul>
+                        <span class="text-muted2">RPM / RCF RANGE</span>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+                        <span class="mt-3 text-muted3">TEMPERATURE RANGE</span>
+                        <input type="range" class="form-range" />
+                        <span class="mt-5 text-muted3">APPLICATION</span>
+                        <div class="flex mb-4 mt-4">
+                            <span class="text-muted3">CLINICAL</span>
+                            <button class="side-btn">RESEARCH</button>
+                        </div>
+                        <span class="">INDUSTRIAL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- LEFT SIDEBAR -->
+                <div class="col-lg-3 d-none d-lg-block sidebar">
+                    <div class="sidebar p-3">
+
+                        <h6 class="fw-bold">LABORATORY <br> EQUIPMENT</h6>
+                        <small class="text-muted">TECHNICAL CATALOG V4.2</small>
+
+
+                        <ul class="list-unstyled mt-2">
+
+                            <li class="active"><span>icon</span> Centrifuges</li>
+
+                            <li><span>icon</span> Incubators</li>
+
+                            <li><span>icon</span> Spectrometers</li>
+
+                            <li><span>icon</span> Freezers</li>
+
+                            <li><span>icon</span> Liquid Handling</li>
+                        </ul>
+
+                        <span class="text-muted2">RPM / RCF RANGE</span>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" />
+                            <label>Up to 15,000 RPM</label>
+                        </div>
+
+                        <span class="mt-3 text-muted3">TEMPERATURE RANGE</span>
+                        <input type="range" class="form-range" />
+
+                        <span class="mt-5 text-muted3">APPLICATION</span>
+                        <div class="flex mb-4 mt-4">
+                            <span class="text-muted3">CLINICAL</span>
+                            <button class="side-btn">RESEARCH</button>
+                        </div>
+                        <span class="">INDUSTRIAL</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="col-12 col-lg-9">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container mt-3">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container mt-3">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container mt-3">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-card">
+                                <!-- IMAGE -->
+                                <div class="product-img">
+                                    <img src="../assets/images/product-img1.png" alt="" />
+                                    <span class="badge bg-info">REFRIGERATED</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <div class="">
+                                    <h5>ROTINA 420 R</h5>
+                                    <p class="text-muted">HIGH CAPACITY BENCHTOP</p>
+
+                                    <!-- STATS -->
+                                    <div class="state-parent">
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RPM</span>
+                                            <strong>15,000</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">MAX RCF</span>
+                                            <strong>24,400</strong>
+                                        </div>
+                                        <div class="state-child">
+                                            <span class="text-muted">CAPACITY</span>
+                                            <strong>4 × 600 ml</strong>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTONS -->
+                                    <div class="btn-container mt-3">
+                                        <div class="">
+                                            <a href="#" class="view_btn">VIEW SPECS</a>
+                                        </div>
+                                        <button class="add_btn">
+                                            ADD TO QUOTE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Generation -->
+
+                    <div class="gen-wrapper">
+                        <!-- LEFT -->
+                        <div class="first-gen">
+                            <span>NEW TECHNOLOGY RELEASE</span>
+                            <h2>Next Generation
+                                Magnetic Locking</h3>
+                                <p class="gen-para">Introducing a friction-less, zero-maintenance magnetic
+                                    lid locking system across the 2024 Scientiquipp Pro line.</p>
+                                <button class="gen-btn">EXPLORE INNOVATION</button>
+                        </div>
+
+                        <!-- RIGHT -->
+                        <div class="second-gen">
+                            <div class="content">
+
+                                <div class="">icon</div>
+
+
+                                <h3>Direct Technical
+                                    Integration</h2>
+
+                                    <div class="gen-para">
+                                        Our engineers provide direct
+                                        consultation for specialized laboratory
+                                        integration and automation protocols.
+                                    </div>
+                                    <span class="gen-support">CONTACT SUPPORT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
