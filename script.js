@@ -9,3 +9,9 @@ links.forEach(link => {
     this.classList.add("active");
   });
 });
+
+
+// select2 dropdown initalization
+  $(document).ready(function() {
+    $('#mySelect').select2();
+  });
