@@ -1,40 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Configurator</title>
-
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- Select2 CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- jQuery (required) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <?php include('head.php')?>
   </head>
 
   <body>
-    <section class="container-fluid mb-5">
+
+    <?php include('Navbar.php')?>
+
+    <section class="container-fluid">
       <div class="config-container">
         <!-- HEADER -->
         <div class="row container">
           <div class="config-header-container">
             <div class="col-lg-6">
-              <div class="cofig-m-heading">
+              <div class="cofig-m-heading m-lg-4">
                 <h2>Product Configurator</h2>
                 <p>
                   Please select the desired technical data for your
@@ -192,9 +172,9 @@
         </div>
       </div>
       <!-- last section -->
-      <div class="">
+      <div class="mb-4">
         <div class="row last-container-config">
-          <div class="col-lg-4 config-box">
+          <div class="col-lg-4 config-box ">
             <span class="circal-icon"> @ </span>
             <div class="config-box-parent1">
               <h5>IN-VITRO DIAGNOSTIC</h5>
@@ -219,7 +199,10 @@
       </div>
     </section>
 
-    <!-- Bootstrap JS for interactive tabs -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include('Footer.php')?>
+    
+    <?php include('script.php')?>
+
+
   </body>
 </html>
