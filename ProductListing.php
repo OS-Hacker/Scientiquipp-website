@@ -57,14 +57,17 @@
  
 <!-- ── Sidebar overlay (mobile) ──────────────────────────── -->
 <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
  
 <!-- ── Page Layout ───────────────────────────────────────── -->
+<div class="comman-x-spacing d-flex">
 <div class="page-layout">
  
   <!-- ── SIDEBAR ─────────────────────────────────────────── -->
   <aside class="sidebar" id="sidebar">
 
   <div class="remove-sidebar">X</div>
+  
  
     <!-- Brand -->
     <div class="sidebar-section sb-brand">
@@ -74,7 +77,7 @@
  
     <!-- Nav -->
     <div class="sidebar-section">
-      <ul class="sb-nav">
+      <ul class="sb-nav" style="padding-left: 6px;">
         <li class="active">
           <span class="nav-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -121,7 +124,7 @@
     <!-- RPM Filter -->
     <div class="sidebar-section">
       <span class="filter-label">RPM / RCF RANGE</span>
-      <div class="check-group">
+      <div class="check-group" style="padding: left 0px;">
         <label class="check-item">
           <input type="checkbox" id="rpm1" />
           <label for="rpm1">Up to 15,000 RPM</label>
@@ -156,14 +159,14 @@
         <button class="app-pill mb-3">INDUSTRIAL</button>
       </div>
     </div>
- 
-  </aside>
-  <!-- /SIDEBAR -->
- 
+  </div>
+</aside>
+
+
   <!-- ── MAIN CONTENT ─────────────────────────────────────── -->
   <main class="main-content">
-    <!-- Product Grid -->
-    <div class="product-grid">
+      <!-- Product Grid -->
+      <div class="product-grid">
  
       <!-- Card 1 -->
       <div class="product-card" data-aos="fade-up" data-aos-duration="1400">
@@ -344,11 +347,15 @@
         </div>
       </div>
  
-    </div>
+      </div>
+    </main>
+  </div>
+</div>
 
 
-    <!-- genration section -->
-                    <div class="gen-wrapper mt-3">
+<!-- genration section -->
+<div class="comman-x-spacing">
+  <div class="gen-wrapper mt-3">
                         <!-- LEFT -->
                         <div class="first-gen" data-aos="fade-right" data-aos-duration="1400">
                             <span>NEW TECHNOLOGY RELEASE</span>
@@ -378,9 +385,8 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-
-            
+  </div>
+</div>
 
     <?php include('Footer.php')?>
 

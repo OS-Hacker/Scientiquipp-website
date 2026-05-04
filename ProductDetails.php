@@ -274,10 +274,11 @@
           aria-labelledby="specs-tab"
         >
 
-          <div class="comman-x-spacing w-100 h-100">
+          <div class="comman-x-spacing h-100">
 
             <div
-              class="row gx-4 gx-lg-4 gy-3 gy-lg-4 align-items-center justify-content-between h-100"
+              class="row gy-3 gy-lg-4 align-items-center justify-content-between m-auto h-100 "
+               style="width:95%"
             >
 
               <!-- LEFT -->

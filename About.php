@@ -40,7 +40,8 @@
       </section>
 
     <!-- who we work with -->
-    <section class="work-section comman-x-spacing">
+    <section class="work-section">
+      <div class="comman-x-spacing">
       <div class="work-header">
         <h2 data-aos="fade-up" data-aos-duration="800">Who We Work With</h2>
       </div>
@@ -94,6 +95,7 @@
           <h4>OEMS</h4>
           <p>White-label manufacturing for global equipment brands.</p>
         </div>
+      </div>
       </div>
     </section>
 
