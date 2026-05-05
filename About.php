@@ -1,129 +1,114 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Page</title>
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <?php include('head.php')?>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- custom css -->
-    <link rel="stylesheet" href="/style.css" />
+    <!-- Hide Scrollbar + Smooth Scroll -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      * {
+        scrollbar-width: none;
+      }
+    </style>
   </head>
   <body>
+
+    <?php include('Navbar.php')?>
+
+    <!-- header page -->
     <section class="about-container">
-      <img src="../assets/images/about-banner.jpg" alt="About Banner" />
+      
+        <img src="assets/images/about-banner.jpg" alt="About Banner" />
+        
+        <div class="content">
+          <small data-aos="fade-down" data-aos-duration="700">ABOUT US</small>
+          
+          <h2 class="heading" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">About Us</h2>
+          
+          <p class="text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            Scientiquipp represents the intersection of clinical excellence and
+            architectural precision. We are the silent engine behind the world's
+            most demanding laboratory environments, engineering the future of
+            precision instrumentation.
+          </p>
+        </div>
+      </section>
 
-      <div class="content">
-        <small>ABOUT US</small>
-
-        <h2 class="heading">About Us</h2>
-
-        <p class="text">
-          Scientiquipp represents the intersection of clinical excellence and
-          architectural precision. We are the silent engine behind the world's
-          most demanding laboratory environments, engineering the future of
-          precision instrumentation.
-        </p>
-      </div>
-    </section>
-
+    <!-- who we work with -->
     <section class="work-section">
+      <div class="comman-x-spacing">
       <div class="work-header">
-        <h2>Who We Work With</h2>
+        <h2 data-aos="fade-up" data-aos-duration="800">Who We Work With</h2>
       </div>
 
-      <div class="work-grid">
+      <div class="work-grid ">
         <!-- Card -->
-        <div class="work-card">
+        <div class="work-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
           <div class="icon">
             <i class="fa-solid fa-microscope"></i>
           </div>
-
           <h4>CLINICAL LABS</h4>
-
           <p>
             Standardizing diagnostic accuracy through modular instrumentation.
           </p>
         </div>
 
         <!-- Card -->
-        <div class="work-card">
+        <div class="work-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
           <div class="icon">
             <i class="fa-solid fa-flask"></i>
           </div>
-
           <h4>RESEARCH</h4>
-
           <p>Enabling breakthroughs with high-throughput custom platforms.</p>
         </div>
 
         <!-- Card -->
-        <div class="work-card">
+        <div class="work-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
           <div class="icon">
             <i class="fa-solid fa-vials"></i>
           </div>
-
           <h4>PHARMA</h4>
-
           <p>
             Supporting large-scale drug development with validated technology.
           </p>
         </div>
 
         <!-- Card -->
-        <div class="work-card">
+        <div class="work-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
           <div class="icon">
             <i class="fa-solid fa-cubes"></i>
           </div>
-
           <h4>SPECIALIZED</h4>
-
           <p>Tailored engineering for forensic and environmental labs.</p>
         </div>
 
         <!-- Card -->
-        <div class="work-card">
+        <div class="work-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
           <div class="icon">
             <i class="fa-solid fa-screwdriver-wrench"></i>
           </div>
-
           <h4>OEMS</h4>
-
           <p>White-label manufacturing for global equipment brands.</p>
         </div>
       </div>
+      </div>
     </section>
 
+
+    <!-- vision section -->
     <section class="vision-section">
-      <div class="container-fluid">
+      <div class="comman-x-spacing">
         <div class="vision-wrapper">
           <!-- Left Content -->
           <div class="vision-left">
-            <small>OUR VISION</small>
+            <small data-aos="fade-up" data-aos-duration="700">OUR VISION</small>
 
-            <div class="heading">
+            <div class="heading" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
               <h2>
                 Precision is not a <br />
                 goal; it is a <br />
@@ -131,7 +116,7 @@
               </h2>
             </div>
 
-            <p>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               To redefine the boundaries of laboratory reliability by merging
               structural architectural integrity with clinical laboratory
               requirements.
@@ -140,22 +125,22 @@
 
           <!-- Right Grid -->
           <div class="vision-right">
-            <div class="vision-card active">
+            <div class="vision-card active" data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
               <h5>QUALITY</h5>
               <p>Uncompromising standards in every component fabricated.</p>
             </div>
 
-            <div class="vision-card">
+            <div class="vision-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
               <h5>INNOVATION</h5>
               <p>Pioneering modular architectures for future-proof labs.</p>
             </div>
 
-            <div class="vision-card">
+            <div class="vision-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
               <h5>CLOSENESS</h5>
               <p>A partnership approach to problem-solving and design.</p>
             </div>
 
-            <div class="vision-card">
+            <div class="vision-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
               <h5>RELIABILITY</h5>
               <p>Systems designed for 24/7 mission-critical operations.</p>
             </div>
@@ -166,13 +151,13 @@
 
     <!-- ================= TOP SECTION ================= -->
     <section class="engineering-section py-5">
-      <div class="container">
-        <div class="row align-items-center">
+      <div class="comman-x-spacing">
+      <div class="engin-container">
           <!-- IMAGE -->
-          <div class="col-lg-6">
+          <div class="" data-aos="fade-up" data-aos-duration="900">
             <div class="image-wrapper">
               <img
-                src="/assets/images/about-page-img.png"
+                src="assets/images/about-page-img.png"
                 class="img-fluid"
                 alt="Engineering"
               />
@@ -180,7 +165,7 @@
           </div>
 
           <!-- CONTENT -->
-          <div class="col-lg-6">
+          <div class="" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">
             <p class="tag text-uppercase">OEM CAPABILITIES</p>
 
             <h1 class="title">
@@ -190,7 +175,7 @@
             </h1>
 
             <!-- FEATURE 1 -->
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
               <span class="num">01</span>
               <div class="feature-content-container">
                 <h6>Accessory Customization</h6>
@@ -202,7 +187,7 @@
             </div>
 
             <!-- FEATURE 2 -->
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
               <span class="num">02</span>
               <div>
                 <h6>Equipment Customization</h6>
@@ -214,7 +199,7 @@
             </div>
 
             <!-- FEATURE 3 -->
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
               <span class="num">03</span>
               <div>
                 <h6>Private Labeling</h6>
@@ -226,7 +211,7 @@
             </div>
 
             <!-- BUTTON -->
-            <a href="#" class="btn btn-lg pt-3 mt-3" style="background-color: #00022b; color: white; font-size: 14px;">
+            <a href="#" class="btn mt-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300" style="background-color: #00022b; color: white; font-size: 14px;">
               DOWNLOAD OEM CATALOG →
             </a>
           </div>
@@ -237,11 +222,11 @@
     <!-- ================= CTA SECTION ================= -->
     <section class="cta-section py-5">
       <div class="container text-center">
-        <h2 class="cta-title">
+        <h2 class="cta-title" data-aos="fade-up" data-aos-duration="800">
           Architecting the next generation of clinical precision.
         </h2>
 
-        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
           <a href="#" class="btn pt-3">
             CONTACT OUR ENGINEERS
           </a>
@@ -250,5 +235,8 @@
         </div>
       </div>
     </section>
+
+    <?php include('Footer.php')?>
+
   </body>
 </html>
