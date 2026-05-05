@@ -211,7 +211,11 @@
             </div>
 
             <!-- BUTTON -->
+<<<<<<< HEAD
             <a href="#" class="btn mt-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300" style="background-color: #00022b; color: white; font-size: 14px;">
+=======
+            <a href="#" class="btn btn-lg pt-3 mt-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300" style="background-color: #00022b; color: white; font-size: 14px;">
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
               DOWNLOAD OEM CATALOG →
             </a>
           </div>

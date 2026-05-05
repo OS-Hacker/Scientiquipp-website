@@ -44,9 +44,13 @@
                 <!-- Card 1 -->
                 <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                     <div class="hero-box">
+<<<<<<< HEAD
                        <span class="material-symbols-outlined icon">
 diversity_3
 </span>
+=======
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
                         <h2 class="hero-heading">Family-Run Heritage</h2>
                         <p class="hero-text">
                             Four generations of the Hettich family have maintained a culture
@@ -59,9 +63,13 @@ diversity_3
                 <!-- Card 2 -->
                 <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                     <div class="hero-box">
+<<<<<<< HEAD
                        <span class="material-symbols-outlined icon">
 precision_manufacturing
 </span>
+=======
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
                         <h2 class="hero-heading">In-House Mastery</h2>
                         <p class="hero-text">
                             By manufacturing nearly every component ourselves in Tuttlingen,
@@ -73,9 +81,13 @@ precision_manufacturing
                 <!-- Card 3 -->
                 <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     <div class="hero-box">
+<<<<<<< HEAD
                         <span class="material-symbols-outlined icon">
 verified
 </span>
+=======
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
                         <h2 class="hero-heading">German-Made Integrity</h2>
                         <p class="hero-text">
                             The "Made in Germany" seal is more than a label; it's our promise
@@ -87,9 +99,13 @@ verified
                 <!-- Card 4 -->
                 <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                     <div class="hero-box">
+<<<<<<< HEAD
                        <span class="material-symbols-outlined icon">
 potted_plant
 </span>
+=======
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
                         <h2 class="hero-heading">Sustainable Future</h2>
                         <p class="hero-text">
                             Innovation must be responsible.
@@ -126,6 +142,7 @@ potted_plant
 
           <h2 class="mt-3">Centrifuges</h2>
 
+<<<<<<< HEAD
           <p class="accessories-para mb-2">
            Scientiquipp centrifuges are renowned for their high performance, reliability, and safety. Whether your laboratory requires a compact microlitre centrifuge for precise, small-volume applications
           </p>
@@ -134,6 +151,14 @@ potted_plant
             EXPLORE SERIES <span class="material-symbols-outlined google-material">
 trending_flat
 </span>
+=======
+          <p class="accessories-para mb-4">
+           Scientiquipp centrifuges are renowned for their high performance, reliability, and safety. Whether your laboratory requires a compact microlitre centrifuge for precise, small-volume applications
+          </p>
+
+          <a href="./ProductListing.php" class="explore-link mb-3">
+            EXPLORE SERIES →
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
           </a>
 
           <div class="img-container">
@@ -156,7 +181,11 @@ trending_flat
             Scientiquipp provides certified fixed-angle and swing-out rotors for all centrifuge models, built from high-performance alloys and traceable by batch number.
           </p>
 
+<<<<<<< HEAD
           <a href="#" class="explore-link icon-link">LEARN MORE</a>
+=======
+          <a href="#" class="explore-link">LEARN MORE →</a>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
         </div>
 
@@ -171,7 +200,11 @@ trending_flat
            Scientiquipp ensures each centrifuge is accompanied by a thoughtfully curated selection of tools and care products, empowering users to operate their equipment with confidence and ease.
           </p>
 
+<<<<<<< HEAD
           <a href="#" class="explore-link icon-link">LEARN MORE </a>
+=======
+          <a href="#" class="explore-link">LEARN MORE →</a>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
         </div>
 
@@ -269,6 +302,7 @@ trending_flat
     <section class="news-section">
         <div class="comman-x-spacing">
 
+<<<<<<< HEAD
         <div class="w-100 news-h-align" >
 
         <div class="">
@@ -285,6 +319,10 @@ trending_flat
         </div>
 
         </div>
+=======
+            <h1 class="news-heading" data-aos="fade-up" data-aos-duration="800">Laboratory News.</h1>
+            <p class="news-subtext" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Stay updated with our latest technical innovations.</p>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
             <div class="row g-4">
 

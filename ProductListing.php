@@ -354,7 +354,11 @@
 
 
 <!-- genration section -->
+<<<<<<< HEAD
 <div class="">
+=======
+<div class="comman-x-spacing">
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   <div class="gen-wrapper mt-3">
                         <!-- LEFT -->
                         <div class="first-gen" data-aos="fade-right" data-aos-duration="1400">

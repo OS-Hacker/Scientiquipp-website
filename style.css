@@ -32,7 +32,11 @@ body {
   --text-muted: #6b7280;
   --text-dim: #9ca3af;
   --card-bg: #f5f5f5;
+<<<<<<< HEAD
   --sidebar-w: 250px;
+=======
+  --sidebar-w: 300px;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   --radius: 4px;
   --radius-lg: 8px;
 }
@@ -51,6 +55,7 @@ body {
   transition: all 0.3s ease;
 }
 
+<<<<<<< HEAD
 /* icon */
 /* Global link + icon alignment */
 .icon-link {
@@ -72,6 +77,8 @@ body {
   flex-wrap: wrap; /* 🔥 key for responsiveness */
   gap: 10px;
 }
+=======
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 /* ========================= CUSTOM NAVBAR SECTION========================= */
 .custom-navbar {
   position: sticky;
@@ -86,7 +93,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   margin: 0 50px;
+=======
+  margin: 0 auto;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   padding: 0 10px;
   height: 70px;
 }
@@ -2520,7 +2531,11 @@ body {
 @media (min-width: 1200px) {
   .gen-wrapper {
     width: 100%;
+<<<<<<< HEAD
     padding: 10px 50px;
+=======
+    padding: 10px 10px;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
     /* gap: 32px; */
   }
@@ -2985,7 +3000,12 @@ input[type="range"]::-webkit-slider-thumb {
   transition:
     border-color 0.2s,
     transform 0.2s;
+<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 1);
+=======
+
+  background-color: #f6f1ff;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 }
 .product-card:hover {
   border-color: rgba(0, 212, 184, 0.35);
@@ -2993,7 +3013,11 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .product-img {
+<<<<<<< HEAD
   width: 200px;
+=======
+  width: 300px;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   height: 256px;
   margin: auto;
   opacity: 1;
@@ -3004,9 +3028,16 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
 }
 .product-img img {
   width: 100%;
+=======
+  margin: auto;
+}
+.product-img img {
+  width: 80%;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   height: 100%;
   margin: auto;
   object-fit: cover;
@@ -3192,6 +3223,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .detail-content-container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3202,6 +3234,10 @@ input[type="range"]::-webkit-slider-thumb {
 /* paragraph control */
 .detail-content-container p {
   max-width: 460px;
+=======
+  width: 500px;
+  height: 394px;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 }
 
 /* IMAGE */
@@ -3722,7 +3758,16 @@ input[type="range"]::-webkit-slider-thumb {
 
   /* Space between left & right sections */
   .tab-pane {
+<<<<<<< HEAD
     gap: 3rem;
+=======
+    height: 613px;
+    padding: 2rem 1.8rem;
+  }
+  .rotors-panel,
+  .accessories-panel {
+    min-height: 613px;
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
   }
 
   /* Left content spacing */
@@ -3854,6 +3899,71 @@ input[type="range"]::-webkit-slider-thumb {
   }
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 576px) {
+  .tab-main-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .tab-content,
+  .tab-pane {
+    height: auto;
+    border-radius: 12px;
+    padding: 0.75rem;
+  }
+  .rotors-panel,
+  .accessories-panel {
+    height: auto;
+    min-height: auto;
+  }
+  .nav-tabs .nav-link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.4rem 0.5rem 0.4rem;
+    margin-right: 0.1rem;
+  }
+  .spec-title {
+    font-size: 22px;
+    max-width: 100%;
+  }
+  .spec-desc {
+    font-size: 14px;
+    margin-top: 0.75rem;
+    max-width: 100%;
+  }
+  .spec-item {
+    gap: 0.3rem;
+  }
+  .spec-item strong {
+    font-size: 20px;
+  }
+  .spec-item span:first-child {
+    font-size: 11px;
+  }
+  .rotor-metric {
+    padding: 0.75rem;
+  }
+  .rotor-metric .value {
+    font-size: 1.3rem;
+  }
+  .rotor-metric .label {
+    font-size: 0.7rem;
+  }
+  .accessories-grid h3 {
+    font-size: 1.1rem;
+  }
+  .acc-badge {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .down-heading {
+    font-size: 23px;
+    font-weight: Bold;
+    text-align: center;
+  }
+}
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
 /* Normal select dropdown arrow */
 .custom-dropdown,
@@ -5230,11 +5340,14 @@ h5 {
   }
 
   .engin-container {
+<<<<<<< HEAD
     flex-direction: column;
     gap: 40px;
   }
 
   .engin-container {
+=======
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
     gap: 30px;
   }
 }

@@ -27,7 +27,11 @@
     >
 
       <section class="comman-x-spacing">
+<<<<<<< HEAD
         <div class="detail-main-container mb-5">
+=======
+        <div class="row justify-content-between align-items-center mb-5">
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
           <!-- IMAGE -->
           <div
@@ -65,8 +69,13 @@
               concentrated footprint.
             </p>
 
+<<<<<<< HEAD
             <div class="detail-btn-con">
               <button class="detail-btn btn-teal px-4 py-2">
+=======
+            <div class="d-flex align-items-center gap-4 mt-4 flex-wrap">
+              <button class="btn btn-teal px-4 py-2">
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
                 Request Quote
               </button>
 
@@ -82,6 +91,7 @@
 
 
 
+<<<<<<< HEAD
 
 
     
@@ -93,6 +103,13 @@
 
 
         
+=======
+    <!-- SECOND SECTION -->
+    <section class="comman-x-spacing mt-5">
+
+      <div class="row">
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
         <!-- LEFT -->
         <div
           class="col-lg-6 d-flex align-items-center justify-content-center flex-column"
@@ -115,26 +132,45 @@
             1.5/2.0 ml. Thanks to rotors for PCR strips, microhaematocrit
             capillary tubes and filter tubes, the Sigma 1-14 is an all-round
             laboratory centrifuge suitable for a wide variety of applications.
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
             It is popular for molecular biology applications such as DNA, RNA
             and protein isolation, clinical chemistry, and in research labs and
             food labs, universities, and the pharmaceutical industry.
           </p>
+<<<<<<< HEAD
           
         </div>
 
 
         
+=======
+
+        </div>
+
+
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
         <!-- RIGHT -->
         <div
           class="col-lg-6"
           data-aos="fade-left"
           data-aos-duration="1200"
           data-aos-delay="200"
+<<<<<<< HEAD
           >
 
           <div class="all-box-con">
             
+=======
+        >
+
+          <div class="d-flex align-items-center flex-column">
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
             <!-- BOX 1 -->
             <div
               class="box1"
@@ -142,9 +178,13 @@
               data-aos-duration="1000"
             >
 
+<<<<<<< HEAD
               <span class="material-symbols-outlined icon">
 lock
 </span>
+=======
+              <span>icon</span>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
               <h3 class="d-inline">
                 Ergonomic Lid Locking
@@ -158,20 +198,32 @@ lock
 
             </div>
 
+<<<<<<< HEAD
             
             
+=======
+
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
             <!-- BOX 2 -->
             <div
               class="box2"
               data-aos="flip-up"
               data-aos-duration="1000"
               data-aos-delay="150"
+<<<<<<< HEAD
               >
               
              <span class="material-symbols-outlined icon">
 aspect_ratio
 </span>
               
+=======
+            >
+
+              <span>icon</span>
+
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
               <h3 class="d-inline">
                 Ergonomic Lid Locking
               </h3>
@@ -188,6 +240,7 @@ aspect_ratio
 
             <!-- BOX 3 -->
             <div
+<<<<<<< HEAD
             class="box1"
             data-aos="flip-up"
             data-aos-duration="1000"
@@ -213,6 +266,33 @@ aspect_ratio
       
   </div>
   </section>
+=======
+              class="box1"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+
+              <span>icon</span>
+
+              <h3 class="d-inline">
+                Ergonomic Lid Locking
+              </h3>
+
+              <p class="para-con">
+                Safety meets simplicity. Our precision lid-locking mechanism
+                ensures a secure seal with minimal physical effort, reducing
+                laboratory fatigue.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
 
 
@@ -535,7 +615,11 @@ aspect_ratio
 
     <!-- DOWNLOADS -->
     <section
+<<<<<<< HEAD
       class="pt-5 mb-8 rounded-4"
+=======
+      class="pt-5 mb-5 rounded-4"
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
       style="background-color: #fcf8ff"
       data-aos="fade-up"
       data-aos-duration="1400"
@@ -548,7 +632,11 @@ aspect_ratio
         </h2>
 
         <div
+<<<<<<< HEAD
           class="down-con"
+=======
+          class="row pt-5 mb-5 pb-5 d-lg-flex flex-row justify-content-evenly"
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
         >
 
           <!-- BOX 1 -->
@@ -558,10 +646,14 @@ aspect_ratio
             data-aos-duration="1000"
           >
 
+<<<<<<< HEAD
             <span class="material-symbols-outlined" style="color: rgba(0, 106, 102, 1);
 ">
 picture_as_pdf
 </span>
+=======
+            <span class="icon">@</span>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
             <div class="down-pdf">
               <h5>User Manual</h5>
@@ -580,9 +672,13 @@ picture_as_pdf
             data-aos-delay="150"
           >
 
+<<<<<<< HEAD
             <span class="material-symbols-outlined" style="color: rgba(0, 106, 102, 1);">
 book_ribbon
 </span>
+=======
+            <span class="icon">@</span>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
             <div class="down-pdf">
               <h5>User Manual</h5>
@@ -601,9 +697,13 @@ book_ribbon
             data-aos-delay="300"
           >
 
+<<<<<<< HEAD
             <span class="material-symbols-outlined" style="color: rgba(0, 106, 102, 1);">
 build
 </span>
+=======
+            <span class="icon">@</span>
+>>>>>>> 98df71cb0c7ecf9f692c284c4fdf88012f3e8990
 
             <div class="down-pdf">
               <h5>User Manual</h5>
